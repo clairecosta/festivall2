@@ -11,16 +11,7 @@
 		<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 		<link rel="javascript" type="javascript" href="app.js">
-		<script>
-			$(document).ready(function() {
-				$('.js-scrollTo').on('click', function() { // Au clic sur un élément
-					var page = $(this).attr('href'); // Page cible
-					var speed = 750; // Durée de l'animation (en ms)
-					$('html, body').animate( { scrollTop: $(page).offset().top }, speed ); // Go
-					return false;
-				});
-			});
-		</script>
+		
 	</head>
 	<body>
 		<div id="banner">
@@ -186,11 +177,11 @@
 <p>Suivez-nous sur les réseaux sociaux</p>
 
 <ul >
-	<li class="list-inline-item"><a href="https://www.youtube.com/?hl=fr&gl=FR" target="_blank"><i class="fa fa-youtube"></i></a></li>
-	<li class="list-inline-item"><a href="http://facebook.com/"><i class="fa fa-facebook"></i></a></li>
-	<li class="list-inline-item"><a href="http://twitter.com/"><i class="fa fa-twitter"></i></a></li>
-	<li class="list-inline-item"><a href="#"><i class="fa fa-github"></i></a></li>
-	<li class="list-inline-item"><a href="http://linkedin.com//"><i class="fa fa-linkedin"></i></a></li>
+	<li class="list-inline-item"><a href="https://www.youtube.com/?hl=fr&gl=FR" target="_blank"><i class="fab fa-youtube"></i></a></li>
+	<li class="list-inline-item"><a href="http://facebook.com/"><i class="fab fa-facebook"></i></a></li>
+	<li class="list-inline-item"><a href="http://twitter.com/"><i class="fab fa-twitter"></i></a></li>
+	<li class="list-inline-item"><a href="#"><i class="fab fa-github"></i></a></li>
+	<li class="list-inline-item"><a href="http://linkedin.com//"><i class="fab fa-linkedin"></i></a></li>
 
 </ul>
 </div>
@@ -201,5 +192,15 @@
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script>
+			$(document).ready(function() {
+				$('.js-scrollTo').on('click', function() { // Au clic sur un élément
+					var page = $(this).attr('href'); // Page cible
+					var speed = 750; // Durée de l'animation (en ms)
+					$('html, body').animate( { scrollTop: $(page).offset().top }, speed ); // Go
+					return false;
+				});
+			});
+		</script>
 </body>
 </html>
