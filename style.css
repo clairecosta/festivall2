@@ -24,15 +24,18 @@ color: white;
 }
 
 .fa-facebook {
-  background:#3b5998
+  color:#3b5998
 } 
 .fa-linkedin {
-  background:#007bb6
+  color:#007bb6
 }
 .fa-twitter {
-  background:#00aced
+  color:#00aced
 }
 
+.fa-youtube {
+  color: red;
+}
 
 
 .h6{
