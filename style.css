@@ -23,7 +23,23 @@ font-size: 30px;
 color: white;
 }
 
+.fa-facebook {
+  background:#3b5998
+} 
+.fa-linkedin {
+  background:#007bb6
+}
+.fa-twitter {
+  background:#00aced
+}
 
+
+
+.h6{
+  padding: 100px;
+  font-size: 20px;
+  margin: auto;
+}
 .image {
 text-align: center;
 height: 100px;
@@ -51,11 +67,21 @@ line-height: 30px;
 text-align: center;
 padding: 200px;
 }
+
 .center1 {
-text-align: center;
-padding: 150px;
+  padding: 30px;
 }
 
-.video{
-  padding: 200px;
+.fs-arrow {
+  font-size: 100px;
+  margin: auto;
+  text-align: center;
 }
+
+
+.fas{
+  padding: 50px;
+}
+
+
+
