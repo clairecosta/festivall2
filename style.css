@@ -4,7 +4,7 @@ background-image: url("images/concert.jpg");
 background-size: cover;
 padding: 150px;
 color: lime;
-text-shadow: 2px 2px 5px black;
+text-shadow: 5px 5px 10px black;
 line-height: 100px;
 }
 
