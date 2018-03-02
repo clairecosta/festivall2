@@ -1,6 +1,6 @@
 #banner{
 text-align: center;
-background-image: linear-gradient(rgba(49,49,49,0.5), rgba(49,49,49,0.5)), url("images/concert.jpg");
+background-image: linear-gradient(rgba(20,20,20,0.5), rgba(20,20,20,0.5)), url("images/concert.jpg");
 background-size: cover;
 padding: 150px;
 color: white;
