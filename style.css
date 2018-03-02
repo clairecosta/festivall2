@@ -1,9 +1,9 @@
 #banner{
 text-align: center;
-background-image: url("images/concert.jpg");
+background-image: linear-gradient(rgba(49,49,49,0,4), linear-gradient(rgba(49,49,49,0,4),url("images/concert.jpg");
 background-size: cover;
 padding: 150px;
-color: #4B0082;
+color: white;
 text-shadow: 20px 20px 40px black;
 }
 
